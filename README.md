@@ -1,2 +1,2 @@
-# TIL
-개발자의마음으로
+# TIL (Today I Learned)
+# TIW (Today I Wondered)
