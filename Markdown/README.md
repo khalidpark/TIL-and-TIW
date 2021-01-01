@@ -50,12 +50,13 @@ ___
 
 ![새해일출](https://www.google.com/url?sa=i&url=http%3A%2F%2Fm.blog.naver.com%2Fjbn9988%2F221174060497&psig=AOvVaw10ri3_KWHLUlPm6-frs7_u&ust=1609598374092000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKDUs6z7-u0CFQAAAAAdAAAAABAD) 
 
-수평선 -, *, _을 세개 이상 나열 
-
 코드 
 \`코드 내용\` 
+\`print("hello world는 국룰")\` 
+
 
 코드 블럭 
 앞에 스페이스 4개 이상 삽입
-
+    print ("Hello world")
+    
 출처: https://blog.kalkin7.com/2014/02/10/lets-write-using-markdown/
