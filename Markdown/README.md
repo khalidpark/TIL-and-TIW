@@ -39,10 +39,16 @@ ___
 
 인라인 링크 [텍스트](링크주소) 
 
-참조 링크 [텍스트][참조명] 
-[참조명]: 링크주소 
+[네이버닷컴](https://www.naver.com)
 
-이미지 ![텍스트](이미지링크) 
+참조 링크
+[텍스트:네이버닷컴][참조명:네이버홈페이지] 
+
+[참조명:네이버홈페이지]: https://www.naver.com
+
+이미지 
+
+![새해일출](https://www.google.com/url?sa=i&url=http%3A%2F%2Fm.blog.naver.com%2Fjbn9988%2F221174060497&psig=AOvVaw10ri3_KWHLUlPm6-frs7_u&ust=1609598374092000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKDUs6z7-u0CFQAAAAAdAAAAABAD) 
 
 수평선 -, *, _을 세개 이상 나열 
 
