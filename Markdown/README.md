@@ -12,3 +12,7 @@
 
 ___
 언더바3번 라인추가
+
+THis is the **bold** text and this is the *italic* text and let's ~~strikethrough~~.
+
+> Don't forget to code your dream.
