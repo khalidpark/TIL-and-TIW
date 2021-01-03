@@ -1,3 +1,3 @@
-#Coursera . Python for Everybody
+# Coursera . Python for Everybody
 
-#Chales Russel Severance . University of Michigan
+# Chales Russel Severance . University of Michigan
