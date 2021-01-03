@@ -2,8 +2,18 @@
 
 import pandas as pd
 
-py_vector = one_hot_encoding("파이",word2index)
-py_vector.dot(torch_vector)
+x = pd.DataFrame([1,2,3,4,5,6,7,8,9,10])
+
+print(x[:5]) # 1,2,3,4
+print(x[5:]) # 5,6,7,8,9,10
+print(x[4:7])# 4,5,6
+print(x[::2]) # 2,4,6,8,10 #처음부터 요소를 하나씩 건너 뛴 배열 구성(= step인 2 배열 출력)
+print(x[1::2])# 1,3,5,7,9 #1부터 시작해서 step이 2인 배열
+
+# step이 음수일 떄는 start와 stop의 기본값이 서로 바뀐다.
+print(x[::-1]) #  모든 요소를 거꾸로 나열
+print(x[9::-1]) # 인덱스 9부터 step 을 -1로 처음까지 나열
+print(x[5::-2]) # 인덱스 5부터 step 을 -2로 처음까지 나열
 ```
 
 # python
