@@ -1,4 +1,3 @@
-
 # 1차원 배열 DataFrame 슬라이스
 
 ```python
