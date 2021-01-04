@@ -49,16 +49,6 @@ data.iloc[:,0] # 첫번째 열만
 data.iloc[:,1] # 두번째 열만
 data.iloc[:,-1] # 마지막 열만
 ```
-
-```python
-x = pd.DataFrame([1,2,3,4,5,6,7,8,9,10], index=['a','b','c','d','e','f','g','h','i','j'])
-
-print('A : ' , x[1:4]) # 묵시적 인덱스
-print('B : ' , x.iloc[1:4]) # 묵시적 인덱스
-print('C : ' , x['b':'d']) # 명시적 인덱스
-print('D : ' , x.loc['b':'d']) # 명시적 인덱스
-```
-
 # 2차원 배열 DataFrame 슬라이스
 
 ```python
@@ -79,6 +69,22 @@ print(x.loc[:1,['A','B','C']]) # 두 개의 행, ['A','B' ,'C'] 열만 출력
 print(x.loc[:1,'A']) # 두 개의 행, 0 번째 열
 ```
 
+# 2차원 배열 DataFrame 열조회
+```python
+import pandas as pd
+
+x = pd.DataFrame([[3, 5, 2, 4],
+       [7, 6, 8, 8],
+       [1, 6, 7, 7]], columns=['A','B','C','D'])
+       
+# A 열 조회
+print(x['A'])
+print(x.loc[:,'A'])
+
+# B, D 열 조회
+print(x[['B','D']])
+print(x.loc[:,['B','D']])
+```
 
 
 
